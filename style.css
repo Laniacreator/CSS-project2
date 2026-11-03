@@ -13,11 +13,6 @@ body {
     color: white;
 }
 
-
-/* =========================
-   HEADER / NAVIGATION
-========================= */
-
 header {
     background-color: #111111;
     padding: 20px 7%;
@@ -56,11 +51,6 @@ header {
 .nav-links a:hover {
     color: #d4af37;
 }
-
-
-/* =========================
-   HERO
-========================= */
 
 .hero {
     min-height: 80vh;
@@ -131,13 +121,10 @@ header {
 
 .hero-image {
     flex: 1;
-
     min-height: 450px;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     background:
         linear-gradient(
             135deg,
@@ -151,18 +138,13 @@ header {
 .film-card {
     width: 260px;
     height: 350px;
-
     padding: 35px;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     background-color: #111111;
     color: white;
-
     transform: rotate(-5deg);
-
     box-shadow: 20px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -179,11 +161,6 @@ header {
 .film-card small {
     letter-spacing: 4px;
 }
-
-
-/* =========================
-   FEATURES
-========================= */
 
 .features-section {
     padding: 100px 7%;
@@ -207,24 +184,16 @@ header {
     margin-top: 10px;
 }
 
-
-/* CSS GRID */
-
 .features-grid {
     display: grid;
-
     grid-template-columns: repeat(3, 1fr);
-
     gap: 25px;
 }
 
 .feature-card {
     overflow: hidden;
-
     background-color: white;
-
     border: 1px solid #dddddd;
-
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -256,19 +225,11 @@ header {
     line-height: 1.7;
 }
 
-
-/* =========================
-   ABOUT
-========================= */
-
 .about-section {
     padding: 100px 7%;
-
     display: grid;
     grid-template-columns: 1fr 1fr;
-
     gap: 80px;
-
     align-items: center;
 }
 
@@ -282,16 +243,9 @@ header {
     font-size: 18px;
 }
 
-
-/* =========================
-   TICKETS
-========================= */
-
 .tickets-section {
     text-align: center;
-
     padding: 100px 20px;
-
     background-color: #1b1b1b;
 }
 
@@ -305,20 +259,12 @@ header {
     margin-bottom: 30px;
 }
 
-
-/* =========================
-   FOOTER
-========================= */
-
 footer {
     padding: 40px 7%;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     background-color: #090909;
-
     color: #999999;
 }
 
@@ -331,45 +277,32 @@ footer p {
     margin: 5px 0;
 }
 
-
-/* =========================
-   RESPONSIVE DESIGN
-========================= */
-
-/* Tablets */
+/* Responsive Design */
 
 @media (max-width: 900px) {
-
     .nav-links {
         gap: 15px;
     }
-
     .hero {
         flex-direction: column;
         text-align: center;
     }
-
     .hero-text {
         margin: auto;
     }
-
     .hero-buttons {
         justify-content: center;
     }
-
     .hero-image {
         width: 100%;
     }
-
     .features-grid {
         grid-template-columns: 1fr;
     }
-
     .about-section {
         grid-template-columns: 1fr;
         gap: 30px;
     }
-
 }
 
 
